@@ -167,7 +167,7 @@ form.addEventListener("submit", function (event) {
   const message = form.querySelector("[name='message']").value;
 
   // Create a mailto link
-  const mailtoLink = `mailto:d@gmail.com?subject=Contact Form Submission&body=Full Name: ${fullName}%0AEmail: ${email}%0AMessage: ${message}`;
+  const mailtoLink = `mailto:dhruvbhanderi5469@gmail.com?subject=Contact Form Submission&body=Full Name: ${fullName}%0AEmail: ${email}%0AMessage: ${message}`;
 
   // Open the mailto link in a new tab or window
   window.open(mailtoLink, '_blank');
